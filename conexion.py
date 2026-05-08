@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 app = Flask(__name__)
-cliente = MongoClient("mongodb+srv://2124200328_db_user:goTe8610@cluster0.hr2uuz8.mongodb.net/?appName=Cluster0")
+cliente = MongoClient("mongodb+srv://2124200328_db_user:xxxx@cluster0.hr2uuz8.mongodb.net/?appName=Cluster0")
 db = cliente["iot"]
 coleccion = db["humedad"]
 
