@@ -2,7 +2,7 @@ import pandas as pd
 from pymongo import MongoClient
 import matplotlib.pyplot as plt
 
-cliente = MongoClient("mongodb+srv://2124200328_db_user:goTe8610@cluster0.hr2uuz8.mongodb.net/?appName=Cluster0")
+cliente = MongoClient("mongodb+srv://2124200328_db_user:xxxxx@cluster0.hr2uuz8.mongodb.net/?appName=Cluster0")
 db = cliente["iot"]
 coleccion = db["humedad"]
 
